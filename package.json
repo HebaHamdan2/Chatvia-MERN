@@ -9,6 +9,9 @@
     "start": "node backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
+  "engines": {
+    "node": "18.16.1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
