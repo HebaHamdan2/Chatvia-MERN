@@ -7,7 +7,7 @@ export const signup=async(req,res)=>{
    if(password!==confirmPassword){
     return res.status(400).json({error:"Passwords don't match"});
    }
-   const user =await userModel.findOne({username});
+   let user =await userModel.findOne({username});
    if(user){
     return res.status(400).json({error:"Username already exists"});
    }
@@ -18,17 +18,17 @@ export const signup=async(req,res)=>{
   );
    const boyProfilePic=`https://avatar.iran.liara.run/public/boy?username=${username}`;
    const girlProfilePic=`https://avatar.iran.liara.run/public/girl?username=${username}`;
-   const  newUser= await userModel.create({
+     user= await userModel.create({
     fullName,
     username,
     password:hashedPassword,
     gender,
     profilePic:gender==="male"? boyProfilePic :girlProfilePic
 })
-if(newUser){
- generateToken(newUser._id,res);
-await newUser.save();
-return res.status(201).json({message:"success",newUser})
+if(user){
+ generateToken(user._id,res);
+await user.save();
+return res.status(201).json({message:"success",user})
 }else{
     res.status(400).json({message:"Invalid user data"});
 }

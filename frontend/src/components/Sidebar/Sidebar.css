@@ -1,0 +1,10 @@
+.sidebar {  
+    padding: 20px;
+
+}
+h2{
+    color: #495057f0;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 600;
+   font-size:  calc(2rem + .075vw);
+}

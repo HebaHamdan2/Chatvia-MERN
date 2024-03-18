@@ -1,0 +1,27 @@
+.reg,.login{
+    background-color: #f7f7ff;
+   height: 100vh;
+   overflow-y: scroll;
+   font-family: "Public Sans", sans-serif;
+}
+.logo{
+    width: auto;
+}
+.container{
+    width: 90%;
+}
+.reg input,.login input{
+    font-size: 15px;
+    font-weight: 200;
+}
+.check-gender{
+    cursor: pointer;
+}
+a,Link{
+	text-decoration: none;
+    color: #7269ef !important;
+}
+.btn-primary{
+   background-color:  #7269ef;
+   color: white;
+}
