@@ -39,11 +39,6 @@ SALT_ROUND=...
 SECRET=...
 NODE_ENV=...
 ```
-
-## Usage
-After you clone this repo to your desktop, go to its root directory and run npm install to install its dependencies.
-
-
 ### Build the app
 ```
 npm run build
