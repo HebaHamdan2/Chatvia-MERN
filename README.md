@@ -1,6 +1,6 @@
 # Chatvia💬
 
-Chatvia is a MERN Stack real-time chat application that enables users to chat with each other and see who is online after signing up or logging in.
+Chatvia is a MERN Stack real-time chat website that enables users to chat with each other and see who is online after signing up or logging in.
 
 https://github.com/HebaHamdan2/Chatvia-MERN/assets/145803526/77f30daf-4ce6-48a0-ac8b-d5aef42811f4
 
