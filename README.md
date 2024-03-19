@@ -11,12 +11,12 @@ Here is a working live demo: [Chatvia](https://chatvia-mern.onrender.com/).
 
 - Frontend:
 
-   - React.js: Used for building the user interface and managing the application's state.
+    - React.js: Used for building the user interface and managing the application's state.
     - React Router: Used for routing within the application.
     - Axios: Used for making HTTP requests to the backend API.
     - Bootstrap: Used for styling and layout of the application.
-    - Socket.IO Client: Used for real-time messaging with the server.
-    - Zustand: Used for state management, particularly for managing user authentication and global application state.
+    - Socket.IO Client: Used for real-time messaging and online user status with the server.
+    - Zustand: Used for state management, particularly for managing user conversations.
     - React Toast: Used for displaying toast notifications.
     - React Helmet: Used for managing document head tags.
 - Backend:
