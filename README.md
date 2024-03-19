@@ -1,4 +1,4 @@
-# Chatvia
+# Chatvia💬
 
 Chatvia is a MERN Stack real-time chat application that enables users to chat with each other and see who is online after signing up or logging in.
 
