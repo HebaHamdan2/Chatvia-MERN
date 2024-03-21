@@ -1,5 +1,5 @@
 # Chatvia💬
-Chatvia is a real-time chat website built with the MERN stack. It features live messaging using Socket.IO, state management with Zustand, and notifications with React Toast. Users can send messages, see who's online, receive notifications, and enjoy a dynamic chat experience with a shake message effect. User accounts are personalized with unique usernames and avatars based on gender and name.
+Chatvia is a real-time chat app built with the MERN stack. It features live messaging using Socket.IO, state management with Zustand, and notifications with React Toast. Users can send messages, see who's online, receive notifications, and enjoy a dynamic chat experience with a shake message effect. User accounts are personalized with unique usernames and avatars based on gender and name.
 
 https://github.com/HebaHamdan2/Chatvia-MERN/assets/145803526/77f30daf-4ce6-48a0-ac8b-d5aef42811f4
 
@@ -33,7 +33,7 @@ Here is a working live demo: [Chatvia](https://chatvia-mern.onrender.com/).
 This project taught me the intricacies of real-time chat applications using Socket.IO. I gained hands-on experience with Zustand for state management, learned to run the backend and frontend on the same port, and successfully deployed the application using Render.
   
 ## Deployment
-The website is deployed using the free hosting provided by render.
+The app is deployed using the free hosting provided by render.
 ## Inspired by
 https://chatvia-node.themesbrand.website/. 
 
